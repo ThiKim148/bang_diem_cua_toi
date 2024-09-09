@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="formdiem.css">   
+    </head>
+    <body>
+        <div class="container">
+            <h1>BANG DIEM CUA EM</h1>
+            <form class="form">
+                <label for="semester1">Semester 1: </label>
+                <input type="text" id="semester1" name="semester1"
+                    placeholder="Your point..">
+                <br><br>
+                <label for="semester2">Semester 2: </label>
+                <input type="text" id="semester2" name="semester2"
+                    placeholder="Your point..">
+                <br><br>
+                <label for="year">Year: </label>
+                <select id="year">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <br><br>
+                <label for="sum">Summeries: </label>
+                <input type="text" id="sum" name="sum" readonly>
+                <br><br>
+                <p id="kq"></p>
+                <br><br>
+                <div class="footer">
+                    <button type="button" onclick="myFunction()">Ok</button>
+                    <button type="reset">Cancel</button>
+                </div>
+            </form>
+            <script src="formdiem.js"></script>
+        </div>
+    </body>
+</html>
