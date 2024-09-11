@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sell.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>New Product</h1>
+        <form id="frm">
+            <label>
+                Product name
+                <input type="text" id="Pname">
+            </label>
+            <label>
+                Quantity
+                <input type="text" id="qty">
+            </label>
+            <label>
+                Unit Price
+                <input type="text" id="up">
+            </label>
+            <label>
+               Discount
+                <input type="text" id="dc">
+            </label>
+
+            <div id="button-group">
+                <button type="button" onclick="sell()">Sell</button>
+                <button type="reset">Cancel</button>
+            </div>
+        </form>
+    </div>
+
+    <table id="tbl" style="width:500px">
+        <tr>
+            <th>ID</th>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Discount</th>
+            <th>Subtotal</th>
+        </tr>
+    </table>
+
+    <script src="sell.js"></script>
+</body>
+</html>
