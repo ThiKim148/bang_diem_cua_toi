@@ -1,0 +1,22 @@
+
+body {
+    height: 400px;
+}
+
+.container {
+    width: 500px;
+    margin: 10px;
+
+}
+#frm label {
+    line-height: 50px;
+}
+
+table {
+    border: 1px solid;
+    margin-top: 20px;
+}
+
+.button-group {
+    margin-bottom: 10px;
+}
