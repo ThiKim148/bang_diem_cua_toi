@@ -20,9 +20,13 @@ function myFunction() {
     }
     document.getElementById("sum").value = sum.toFixed(2);
 
+    // console.log(sum);
+
     if(sum >= 8.5) {
         XL = "Hoc sinh gioi";
         document.getElementById("kq").style.color="red";
+        // console.log(kq);
+
     }
 
     else if(sum >=6.5 ) {

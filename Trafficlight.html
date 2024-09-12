@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .traffic-light {
+            margin-left: 50px;
+        }
+        
+        img {
+            margin-top: 30px;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="traffic-light">
+        <button type="button" onclick="red()">Red</button>
+        <button type="button" onclick="yellow()">yellow</button>
+        <button type="button" onclick="green()">Green</button>
+    </div>
+
+    <div>
+        <img id="demo" alt="traffic light">
+    </div>
+
+    <script>
+        function red() {
+            document.getElementById("demo").src="red.png";
+        }
+
+        function yellow() {
+            document.getElementById("demo").src="yellow.png";
+        }
+        function green() {
+            document.getElementById("demo").src="green.png";
+        }
+    </script>
+</body>
+</html>
